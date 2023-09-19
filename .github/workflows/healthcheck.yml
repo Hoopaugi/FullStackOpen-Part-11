@@ -2,8 +2,6 @@ name: Healthcheck
 
 on: 
   workflow_dispatch:
-  schedule:
-    - cron:  '0 1 * * *'
 
 jobs:
   render_deployment_healthcheck:
